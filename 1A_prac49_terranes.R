@@ -5,7 +5,7 @@ library(ggplot2)
 Terrane_ages<-read.csv("U-pb_revised_data_compilation.csv")
 View(Terrane_ages)
 
-L<-subset(Terrane_ages, grepl("^Laurentian", Terrane_ages[[2]]), drop = TRUE)
+L<-subset(Terrane_ages, grepl("^Laurentia", Terrane_ages[[2]]), drop = TRUE)
 
 G<-subset(Terrane_ages, grepl("^Gondwana", Terrane_ages[[2]]), drop = TRUE)
 
