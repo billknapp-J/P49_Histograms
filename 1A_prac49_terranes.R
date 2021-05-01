@@ -30,11 +30,11 @@ PLOT<-ggplot(NULL)+
 
 
 PLOT+
-  geom_histogram(data=L, aes(x=Age, fill=Terrane))+
+  geom_histogram(data=L, aes(x=Age, fill=Terrane.1))+
   labs(title="Laurentian Terranes")
 
 
 PLOT+
-  geom_histogram(data=G, aes(x=Age, fill=Terrane))+
+  geom_histogram(data=G, aes(x=Age, fill=Terrane.1))+
   labs(title="Gondawanan Terranes")
 
